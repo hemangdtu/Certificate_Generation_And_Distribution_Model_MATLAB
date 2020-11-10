@@ -4,14 +4,14 @@
 MATLAB is a multifaceted tool that can be very well utilized to automate many tasks. In order to explore and utilize the Image Processing, GUI and E-mail Service operation(s)/ features in MATLAB we have decided to write a code which can take a .xls file and a certificate image template as inputs and with the data present in the .xls file generate certificates as a suitable image file which can be mailed to the concerned via Email with the help of a GUI.
 
 ### Information about the Files
-<ol>
-<li>model_gui.mlapp - Configure and trigger the GUI in MATLAB App Designer</li>
-<li>mail_module.m - MATLAB function file used to add the E-mail functionality to the project and mail the JPG file to the concerned based on the data available in Registration_Details.xls</li>
-<li>certificate_generator.m - MATLAB function file used to generate certificates based on the data present in Registration_Details.xls</li>
-<li>Registration_Details.xls - Dataset</li>
-<li>Certificate_Blank.tif - Blank image template of the certificate</li>
-<li>Certificate_1.jpg - Sample output</li>
-</ol>
+<ul>
+<li><B>model_gui.mlapp</B> - Configure and trigger the GUI in MATLAB App Designer</li>
+<li><B>mail_module.m</B> - MATLAB function file used to add the E-mail functionality to the project and mail the JPG file to the concerned based on the data available in Registration_Details.xls</li>
+<li><B>certificate_generator.m</B> - MATLAB function file used to generate certificates based on the data present in Registration_Details.xls</li>
+<li><B>Registration_Details.xls</B> - Dataset</li>
+<li><B>Certificate_Blank.tif</B> - Blank image template of the certificate</li>
+<li><B>Certificate_1.jpg</B> - Sample output</li>
+</ul>
 
 ### Flow of Control in the Project
 On running the model_gui.mlapp in the MATLAB App Designer we get the above shown layout in a Dialogue Box titled as “GUI Model”. The GUI here consists of 5 labels, 4 text edit fields and 2 push buttons.<br><br>
